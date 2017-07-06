@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {cancelClicked = id; okClicked = id; }; 
+            CLASS = ConfigurationController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                FPSPopup = NSPopUpButton; 
+                clearIntervalPopup = NSPopUpButton; 
+                configurationWindow = NSWindow; 
+                tapeStatesPopup = NSPopUpButton; 
+                transitionsPopup = NSPopUpButton; 
+                turmitesField = NSTextField; 
+                turmitesSlider = NSSlider; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
